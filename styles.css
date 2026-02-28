@@ -264,7 +264,7 @@ p code, li code{
 }
 
 #section4 li::before{
-    content: 
+    content: "";
 }
 
 #section5 p:last-of-type{
@@ -332,10 +332,6 @@ footer{
     width: 50%;
     box-shadow: var(--box-shadow-lg);
 }
-        - make the font display at 1.1rem
-        - make the text bold
-        - tell these to be 50% wide in the container
-        - add the large box shadow
 */
 /* ADD SELECTOR AND STYLES HERE */
 
@@ -508,7 +504,7 @@ footer{
             - left: 0
 */
 #section4 p:last-of-type{
-
+    margin: 1rem 0;
 }
 
 /* ------------- SECTION 5 STYLES ---------------- */
@@ -545,6 +541,9 @@ footer{
         - add the puppy-photo as a repeating background to the container
 */
 #bg-img-3{
+    background-color: var(--lt-blue);
+    background-position: center;
+    background-image: url("images/puppy-photo.jpg");
     
 }
 
@@ -572,6 +571,9 @@ footer{
         - add the wood background texture from the images folder
 */
 #pattern1{
+    background-color: var(--light-gray);
+    background-size: 110%;
+    background-image: url("images/wood.png");
     
 }
 
@@ -629,6 +631,7 @@ footer{
         - float the image to the right
 */
 #dog-house{
+        float: right;
     
 }
 
@@ -638,6 +641,7 @@ footer{
         - clear any floats
 */
 #section9{
+    clear: both;
     
 }
 
